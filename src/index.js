@@ -7,6 +7,7 @@ L.GeoJSON.AJAX = L.GeoJSON.extend({
     dataType: 'json',
     callbackParam: 'callback',
     local: false,
+    withCredentials: false,
     middleware: function (f) {
       return f;
     }
